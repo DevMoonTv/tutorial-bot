@@ -45,7 +45,7 @@ class client extends Client {
     super.login(process.env.TOKEN);
     this.loadCommands();
     mongoose
-      .connect("mongodb://10.0.0.145:27017/prefixbot", {
+      .connect("mongodb://10.0.0.146:27017/prefixbot", {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       })
